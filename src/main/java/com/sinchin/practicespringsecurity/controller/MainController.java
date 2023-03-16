@@ -1,4 +1,4 @@
-package com.sinchin.practicespringsecurity.Controller;
+package com.sinchin.practicespringsecurity.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
