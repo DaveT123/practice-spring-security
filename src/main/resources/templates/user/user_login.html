@@ -39,6 +39,8 @@
         <input type="submit" value="Log In" />
     </form>
     <br />
-    <button><a th:href="@{/home}"  style="text-decoration:none; color: black;">Back to Home</a></button>
+    <form th:action="@{/home}" method="get">
+        <input type="submit" value="Back to Home" />
+    </form>
 </body>
 </html>
